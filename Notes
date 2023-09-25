@@ -53,21 +53,20 @@ DevOps:
 Linux , shell scritpting, python basics
 
 
-source code management:
-
-Github, gitlab, bitbucket , codecommit 
+source code management: Github, gitlab, bitbucket , codecommit 
 CI - Jenkins, GitlabCI
 CD - Jenkins , ansible, gitlabCI
 
-Codequality Analysis:
+Codequality Analysis: Sonarqube
 
-Type of load balancing methods:
+
+Type of load balancing methods: 
 
 Sonarqube 
 
 containeration: Docker , kubernetes and aws eks 
 
-Certificate: ssl, tls, mtls 
+Certificate: openssl, ssl, tls, mtls 
 
 
 
