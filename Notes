@@ -71,6 +71,31 @@ Certificate: openssl, ssl, tls, mtls
 
 
 
+sep 24th:
+
+
+
+
+pwd
+ls
+ls -al
+grep
+history
+mkdir
+rmdir
+touch
+cd
+id
+uptime
+time
+date
+nslookup
+telnet
+free -g , free -m
+
+excerise: install gitbash and docker cli, create a repository in github, clone and push a new branch to github.com
+
+
 
 
 
