@@ -48,5 +48,38 @@ Server is nothing but a computer where your application is hosted (running)
 
 
 
+DevOps:
+
+Linux , shell scritpting, python basics
+
+
+source code management:
+
+Github, gitlab, bitbucket , codecommit 
+CI - Jenkins, GitlabCI
+CD - Jenkins , ansible, gitlabCI
+
+Codequality Analysis:
+
+Sonarqube 
+
+containeration: Docker , kubernetes and aws eks 
+
+Certificate: ssl, tls, mtls 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
