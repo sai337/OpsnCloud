@@ -61,6 +61,8 @@ CD - Jenkins , ansible, gitlabCI
 
 Codequality Analysis:
 
+Type of load balancing methods:
+
 Sonarqube 
 
 containeration: Docker , kubernetes and aws eks 
