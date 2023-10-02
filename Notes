@@ -95,7 +95,7 @@ free -g , free -m
 
 excerise: install gitbash and docker cli, create a repository in github, clone and push a new branch to github.com
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 10/01/2023
 AWS: Ebs volume, efs , cloudwatch , cloudtrail , cloudformation, service catalog and s3
 
@@ -105,22 +105,72 @@ view the account activities in cloudtrail logs
 vpc flowlogs setup with s3 
 
 assignment: attach an efs volume to ec2, compare the diff between ebs and efs.
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 10/02/2023:
 
+Aws global infrastrcutre 
+Regions , Avaliability zones
 Provision resources with cloudformation
 
 
 assignment: provision multiple resourcs with cludformation, and dependency between resources.
+----------------------------------------------------------------------------------------------------------------------------------------------
+10/03/2023:
 
-10/02/2023:
-
-Iam, cloudfront, lambda , sns , ses 
+Iam, route53, cloudfront, lambda , sns , ses 
 
 
+Iam:
+1. Importace of iam role 
+2. diffrence between iam role and policy
+3. Instance profile 
+4. Create an Iam user 
+5. Setup access and Secret key , setup aws cli to access cloud resources 
+Lambda:
 
-10/02/2023:
+1. Setup Lambda and its features
+2. compare lambda with other services
+3. Advantage of lambda and its suppirted languages
 
+Route53:
+1. setup route53 
+2. register a domain, 
+3. access jenkins from the domain created in routet53
+4. Diffrence between the public and private hostedzones 
+5. Route53 recordsets 
+
+CloudFront:
+
+setup cloudfront and its features 
+Cloudfront with s3 (static website hosting & Video streaming)
+
+assigment: 
+----------------------------------------------------------------------------------------------------------------------------------------------
+10/04/2023:
+
+Linux directory structure
+Types of linux distributions
+kernel 
+profiles 
+
+Provision multiple types of linux distribtion servers 
+Ec2 to Ec2 communication on specific port 
+sshkeys 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+10/05/2023:
+
+aws certificate manager 
+
+Setup Jenkins in ec2, register with route53, assign a certificate to it 
+
+plugins setup in jenkins 
+
+github integration with jenkins 
+
+Setup sonarqube in ec2, register with route53 and add certificate 
 
 
 
