@@ -96,6 +96,34 @@ free -g , free -m
 excerise: install gitbash and docker cli, create a repository in github, clone and push a new branch to github.com
 
 
+10/01/2023
+AWS: Ebs volume, efs , cloudwatch , cloudtrail , cloudformation, service catalog and s3
+
+attach an ebs volume to ec2
+watch ec2 metrics in cloudwatch 
+view the account activities in cloudtrail logs 
+vpc flowlogs setup with s3 
+
+assignment: attach an efs volume to ec2, compare the diff between ebs and efs.
+
+10/02/2023:
+
+Provision resources with cloudformation
+
+
+assignment: provision multiple resourcs with cludformation, and dependency between resources.
+
+10/02/2023:
+
+Iam, cloudfront, lambda , sns , ses 
+
+
+
+10/02/2023:
+
+
+
+
 
 
 
