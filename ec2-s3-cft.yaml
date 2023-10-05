@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: A sample template
+Parameters:
+  ImageId:
+    Type: String
+    Default: ami-052632abca0ed1e41
+  KeyName:
+    Type: String
+    Default: ce-eks-poc-ce-pe-demo-np
+  SubnetId:
+    Type: String
+    Default: subnet-0bfa7425db11a4801
+  VolumeType:
+    Type: String
+    AllowedValues:
+      - io1
+      - io2
+      - gp2
+      - gp3
+  VolumeSize:
+    Type: String
+    AllowedValues:
+      - 20
+      - 40
+      - 60
+      - 80
+      - 100
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: !Ref ImageId
+      KeyName: !Ref KeyName
+      SubnetId: !Ref SubnetId
+      BlockDeviceMappings:
+        - DeviceName: /dev/sdm
+          Ebs:
+            VolumeType: !Ref VolumeType
+            Iops: '200'
+            DeleteOnTermination: 'false'
+            VolumeSize: !Ref VolumeSize
+        - DeviceName: /dev/sdk
+          NoDevice: {}
+  s3:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: opsncloud
