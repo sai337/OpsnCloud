@@ -106,16 +106,21 @@ vpc flowlogs setup with s3
 
 assignment: attach an efs volume to ec2, compare the diff between ebs and efs.
 ----------------------------------------------------------------------------------------------------------------------------------------------
-10/02/2023:
+10/03/2023:
 
 Aws global infrastrcutre 
 Regions , Avaliability zones
 Provision resources with cloudformation
 
 
-assignment: provision multiple resourcs with cludformation, and dependency between resources.
+assignment: efs, ebs volume as type io1, create ec2 and attach ebs volume, create vpc 
+
+provision multiple resourcs with cludformation, and dependency between resources.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 10/03/2023:
+
+
+
 
 Iam, route53, cloudfront, lambda , sns , ses 
 
