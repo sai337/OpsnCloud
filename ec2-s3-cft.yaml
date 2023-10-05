@@ -41,7 +41,4 @@ Resources:
             VolumeSize: !Ref VolumeSize
         - DeviceName: /dev/sdk
           NoDevice: {}
-  s3:
-    Type: 'AWS::S3::Bucket'
-    Properties:
-      BucketName: opsncloud
+
