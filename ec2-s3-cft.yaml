@@ -26,12 +26,25 @@ Parameters:
       - 80
       - 100
 Resources:
+  SG:
+    Type: AWS::EC2::SecurityGroup
+    Properties: 
+      GroupDescription: instance sg
+      GroupName: Opsncloud
+      SecurityGroupIngress: 
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+      VpcId: vpc-018c86f7f1281bc94
   MyEC2Instance:
     Type: 'AWS::EC2::Instance'
     Properties:
       ImageId: !Ref ImageId
       KeyName: !Ref KeyName
       SubnetId: !Ref SubnetId
+      SecurityGroupIds: 
+        - !GetAtt SG.GroupId
       BlockDeviceMappings:
         - DeviceName: /dev/sdm
           Ebs:
