@@ -74,7 +74,7 @@ Certificate: openssl, ssl, tls, mtls
 sep 24th:
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 pwd
 ls
@@ -92,6 +92,58 @@ date
 nslookup
 telnet
 free -g , free -m
+grep
+dig 
+netstat -tunlp
+create users 
+users,groups and others
+groups
+file permissions 
+create symlink and create unlink
+env
+curl 
+wget 
+df -hk
+lsblk 
+cd -
+cd ..
+create file and directory
+uname -a
+ipcofig
+ifconfig
+linux directory structure
+openssl
+ps -ef
+pid
+lsof
+cp
+mv
+touch
+cat
+head
+less
+tail 
+find
+top
+htop
+kill
+diff kill and kill -9
+rsync
+df 
+du
+ping
+last 
+
+package installers: yum, apt-get, apt and apk
+File and Directory Operations Commands
+File Permission Commands
+File Compression and Archiving Commands
+Process Management Commands
+System Information Commands
+Networking Commands
+IO Redirection Commands
+Environment Variable Commands
+User Management Commands
 
 excerise: install gitbash and docker cli, create a repository in github, clone and push a new branch to github.com
 
