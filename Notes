@@ -233,7 +233,16 @@ Setup sonarqube in ec2, register with route53 and add certificate
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
+https://kubernetes.io/docs/concepts/overview/working-with-objects/
+ 
+https://minikube.sigs.k8s.io/docs/start/
+ 
 
+https://faun.pub/configuring-minikube-on-windows-10-9d0c0edf855d
+ 
+https://www.cncf.io/
+
+https://phoenixnap.com/kb/understanding-kubernetes-architecture-diagrams#ftoc-heading-8
 
 
 
