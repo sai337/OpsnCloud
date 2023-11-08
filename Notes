@@ -244,6 +244,21 @@ https://www.cncf.io/
 
 https://phoenixnap.com/kb/understanding-kubernetes-architecture-diagrams#ftoc-heading-8
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+11/07/2023
+
+route53, alb,nlb, autoscaling group, cloudwatch, sns , sqs, ses
+
+interface/gateway endpoint ?
+
+OSI model ?
+
+Tcp/udp - how they work ?
+
+diff between interface and gateway endpoints ?
+
+
 
 
 
